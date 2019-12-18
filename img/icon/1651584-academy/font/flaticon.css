@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+      display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    display: block;
+}
+
+.flaticon-001-diploma:before { content: "\f100"; }
+.flaticon-002-student:before { content: "\f101"; }
+.flaticon-003-school:before { content: "\f102"; }
+.flaticon-004-teacher:before { content: "\f103"; }
+.flaticon-005-book:before { content: "\f104"; }
+.flaticon-006-biology:before { content: "\f105"; }
+.flaticon-007-law:before { content: "\f106"; }
+.flaticon-008-chemistry:before { content: "\f107"; }
+.flaticon-009-military:before { content: "\f108"; }
+.flaticon-010-history:before { content: "\f109"; }
+.flaticon-011-pharmacy:before { content: "\f10a"; }
+.flaticon-012-physics:before { content: "\f10b"; }
+.flaticon-013-geography:before { content: "\f10c"; }
+.flaticon-014-agriculture:before { content: "\f10d"; }
+.flaticon-015-politics:before { content: "\f10e"; }
+.flaticon-016-economy:before { content: "\f10f"; }
+.flaticon-017-consulting:before { content: "\f110"; }
+.flaticon-018-sports:before { content: "\f111"; }
+.flaticon-019-sociology:before { content: "\f112"; }
+.flaticon-020-philosophy:before { content: "\f113"; }
+.flaticon-021-exam:before { content: "\f114"; }
+.flaticon-022-student:before { content: "\f115"; }
+.flaticon-023-ebook:before { content: "\f116"; }
+.flaticon-024-computer:before { content: "\f117"; }
+.flaticon-025-library:before { content: "\f118"; }
+.flaticon-026-trophy:before { content: "\f119"; }
+.flaticon-027-stationery:before { content: "\f11a"; }
+.flaticon-028-seminar:before { content: "\f11b"; }
+.flaticon-029-speech:before { content: "\f11c"; }
+.flaticon-030-idea:before { content: "\f11d"; }
+.flaticon-031-qa:before { content: "\f11e"; }
+.flaticon-032-mathematics:before { content: "\f11f"; }
+.flaticon-033-psychology:before { content: "\f120"; }
+.flaticon-034-art:before { content: "\f121"; }
+.flaticon-035-music:before { content: "\f122"; }
+.flaticon-036-engineering:before { content: "\f123"; }
+.flaticon-037-presentation:before { content: "\f124"; }
+.flaticon-038-laptop:before { content: "\f125"; }
+.flaticon-039-search:before { content: "\f126"; }
+.flaticon-040-presentation:before { content: "\f127"; }
+.flaticon-041-schedule:before { content: "\f128"; }
+.flaticon-042-diploma:before { content: "\f129"; }
+.flaticon-043-time:before { content: "\f12a"; }
+.flaticon-044-note:before { content: "\f12b"; }
+.flaticon-045-briefcase:before { content: "\f12c"; }
+.flaticon-046-mortarboard:before { content: "\f12d"; }
+.flaticon-047-chess:before { content: "\f12e"; }
+.flaticon-048-questionnaire:before { content: "\f12f"; }
+.flaticon-049-studying:before { content: "\f130"; }
+.flaticon-050-video-tutorial:before { content: "\f131"; }

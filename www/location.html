@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Location</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo1.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="location.html">LOCATION</a>
+                <a id="menu" href="#" class="icon">&#9776</a>
+            </div>
+        </nav>
+    </header>
+    <main >
+        <h1>Location</h1>
+       <div id="map"></div>
+     
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="location.html">LOCATION</a>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo1.png" alt=""></a>
+        </div>
+        <div class="social">
+            <a href="#"><img src="img/soc/em.png" alt=""></a>
+            <a href="#"><img src="img/soc/face.png" alt=""></a>
+            <a href="#"><img src="img/soc/goo.png" alt=""></a>
+            <a href="#"><img src="img/soc/inst.png" alt=""></a>
+            <a href="#"><img src="img/soc/pint.png" alt=""></a>
+            < </div> <p>Sosluev Alexander 2019</p>
+    </footer>
+    <script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 51.4958659, lng: 31.2203275};
+              // The map, centered at Uluru
+              var map = new google.maps.Map( document.getElementById('map'), {zoom: 5, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd1Lnd-x1oY47NjIGEistLxQo6QT2OELw&callback=initMap">
+                </script>
+    <script src="js/script.js">  </script>
+</body>
+
+</html>

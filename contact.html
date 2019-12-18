@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style>
+            .reg {
+                background: rgb(64, 65, 64);
+        padding: 10px;
+        float:right;
+    }
+    
+    .reg a {
+       color: white;
+        padding: 5px;
+        border: 1px solid rgb(0, 201, 246);
+        border-radius: 30px;
+        
+    }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div class="reg">
+                        <a href="index1.php">Register</a>
+                        <a href="login.php">Login</a>
+    
+    
+            </div>
+        <div class="logo">
+                <a href="index.html"><b> Sosluev Alexander </b></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                    <a href="index.html">HOME</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="blog.html">BLOG</a>
+                  
+                    <a href="location.html">LOCATION</a>
+                    <a href="contact.html">CONTACT</a>
+                <a id="menu" href="#" class="icon">&#9776</a>
+            </div>
+        </nav>
+    </header>
+    <main >
+       <form class="form" action="send.php" method="POST"> 
+           <p><input type="text" name="name" class="feedback-input" placeholder="Name" id="name" required></p>
+           <p><input type="email" name="email" class="feedback-input" placeholder="Email" id="email" required></p>
+      <p><textarea name="text" id="comment" placeholder="Massage" class="feedback-input"></textarea></p>
+      <input type="submit" value="Submit" class="button-submit">
+      <div class="ease"></div>
+        </form>
+    </main>
+    <footer>
+        <nav>
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="blog.html">BLOG</a>
+                
+                <a href="location.html">LOCATION</a>
+                <a href="contact.html">CONTACT</a>
+        </nav>
+        <div class="logo">
+                <a href="index.html"><b> Sosluev Alexander </b></a>
+        </div>
+        <div class="social">
+            <a href="#"><img src="img/social/messenger.png" alt=""></a>
+            <a href="#"><img src="img/social/facebook.png" alt=""></a>
+            <a href="#"><img src="img/social/youtube.png" alt=""></a>
+            <a href="#"><img src="img/social/inst.png" alt=""></a>
+        </div> <address>Sosluev Alexander 2019</address>
+   
+    <script src="js/script.js">  </script>
+</body>
+
+</html>
