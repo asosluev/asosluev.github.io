@@ -1,0 +1,180 @@
+body {
+    background: rgba(85, 71, 66, 0.5);
+    margin: 0;
+    padding: 0;
+    background: url("D:/Web-Site/glav.jpg");
+}
+
+.grid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1ft;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0 10% 0 10%;
+    grid-template-areas:
+        "header "
+        "article"
+        "aside"
+        "footer"
+}
+
+h1 {
+    text-align: center;
+    color: white; 
+}
+
+/* Меню на css */
+/*
+.menu { 
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(50px, auto);
+     
+    border: 1px solid #000000;
+    float: left;
+    border-radius: 5px;
+    
+    color: white;
+    font-family: roboto;
+}
+*/
+#nav{
+    margin: 0;
+    padding: 0
+}
+#nav li {   
+    float: left;
+    position: relative;
+    list-style: none;
+    background: #1d1a1a;
+    width: 50px;
+    color: white
+}
+#nav a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 8px;
+    color: white
+}
+  #active a, #nav li:hover > a{
+background: rgb(0, 0, 0);
+  }
+
+  #nav ul{
+      visibility: hidden;
+      padding: 0;
+      position: absolute;
+  }
+  #nav li:hover > ul{
+      visibility: visible;
+      position: absolute;
+  }
+  #nav ul a{
+      padding:  5px 5px;
+  }
+  #nav ul li:hover>a{
+      background: yellowgreen;
+  }
+
+  /* Сетка сайта*/
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: white;
+    grid-area: header;
+    background: url("D:/Web-Site/up.jpg");
+    grid-template-areas:
+        "menu "
+        "neme"
+}
+            .menu{
+             grid-column-start: 1;
+             grid-column-end: 3;
+             grid-row-start: 1;
+             grid-row-end: 2;
+
+             }
+             .neme{
+            grid-column-start: 2;
+            grid-column-end: 3;
+             grid-row-start: 2;
+              grid-row-end: 3;
+}
+/*
+.headd{
+    grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+background: #000000;
+height:  25px;
+}
+*/
+
+
+aside {
+    grid-area: aside;
+
+background-color: rgba(85, 71, 66, 0.5);
+
+}
+article {
+    grid-area: article;
+ 
+    background: rgba(85, 71, 66, 0.5);
+    }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-rows: minmax(50px, auto);
+    grid-area: footer;
+    grid-template-areas:
+    "right center left"
+}
+         .right{
+           grid-column-start: 1;
+           grid-column-end: 2;
+           background: #ff0202;
+         
+          }
+            .center{
+           grid-column-start: 2;
+           grid-column-end: 3;
+           background: yellowgreen;
+           }
+        .left{
+           grid-column-start: 3;
+           grid-column-end: 4;
+           background: blueviolet;
+            }
+
+.grid >* {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-family: roboto;
+}
+
+video{
+    width: 320px;
+    height: 250px;
+    left: 50px;
+}
+@media (min-width: 640px) {
+    .grid{
+ grid-template-columns: 2fr 4fr;
+ margin: 0 10% 0 10%;
+grid-template-areas: 
+"header header "
+"aside article  "
+"footer footer "
+    }
+}
