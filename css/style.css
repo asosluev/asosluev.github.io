@@ -176,12 +176,23 @@ height: 65px;;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
+ 
 }
 .photo-itm{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
     
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*BLOG*/
 .blog-container{
